@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/teamdiscordbotdevelopers/DBD-Bot/issues"
   },
-  "homepage": "https://github.com/teamdiscordbotdevelopers/DBD-Bot#readme"
+  "homepage": "https://github.com/teamdiscordbotdevelopers/DBD-Bot#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
 }
