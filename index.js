@@ -7,8 +7,13 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-    if (msg.content === '/test') {
-        msg.channel.send('test');
+    if (msg.content === '/도움말') {
+        embed = new Discord.RichEmbed()
+            .setColor("#0022ff")
+            .setTitle("도움말")
+            .addField("깃허브", "[깃허브 org](https://github.com/teamdiscordbotdevelopers)")
+            .addField("명령어", "/도움말")
+        msg.channel.send(embed);
     }
 });
 
