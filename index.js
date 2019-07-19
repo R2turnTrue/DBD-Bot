@@ -6,9 +6,9 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-    if (msg.content === 'ping') {
-        msg.reply('Pong!');
+    if (msg.content === '/도움말') {
+        msg.channel.send('도움말을 쳤습니닷.');
     }
 });
 
-client.login('token');
+client.login('TOKEN');
