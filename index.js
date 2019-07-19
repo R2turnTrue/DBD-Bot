@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-    if (msg.content === '/도움말') {
-        msg.channel.send('도움말을 쳤습니닷.');
+    if (msg.content === '/test') {
+        msg.channel.send('test');
     }
 });
 
