@@ -16,7 +16,7 @@ client.on('message', msg => {
             .setColor("#0022ff")
             .setTitle("도움말")
             .addField("깃허브", "[깃허브 org](https://github.com/teamdiscordbotdevelopers)")
-            .addField("명령어", "/도움말")
+            .addField("명령어", "/도움말\n/아바타")
         msg.channel.send(embed);
     }
     if (msg.content === '/아바타') {
